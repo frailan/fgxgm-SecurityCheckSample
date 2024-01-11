@@ -1,5 +1,5 @@
 FROM node:18.19
-FROM node:iron-buster-slim
+FROM node:21.4-bullseye-slim
 
 RUN npm install -g npm@9.1.3
 
